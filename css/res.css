@@ -1,0 +1,35 @@
+@media screen and (min-device-width:300px) and (max-device-width: 575px) { 
+  header .top_header_text {
+    line-height: 37px !important;
+    background-color: red !;
+  }
+
+
+  .bannar .bannar_overlay {
+    padding: 53px 0;
+   
+  }
+
+  .common_header.py-5 {
+    padding: 10px !important;
+  }
+  .teams div:first-child{
+    margin-top: 35px;
+  }
+  .fcol{
+    width: 50% important;
+  }
+}
+@media screen and (max-width:360px) { 
+.col-6{
+  width: 100% !important;
+}
+
+.team_card {
+  position: relative;
+  overflow: hidden;
+}
+.fcol{
+  width: 50% !important;
+}
+}
